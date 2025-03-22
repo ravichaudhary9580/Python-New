@@ -25,7 +25,8 @@ Step 2: Type keywords to print keywords list.
 
 # Problem 5
 # What is the use of del keyword?
-# del keyword is used to delete an object or a variable from a file.
+# del keyword is used to delete an reference variable of a object
+# object is deleted by memory manager
 """
 x = 10
 print(x)  # Output: 10
