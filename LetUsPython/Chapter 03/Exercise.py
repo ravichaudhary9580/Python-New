@@ -88,7 +88,7 @@ print("Temperature in Centigrade:",Centigrade)
 # b² = a² + c² -2ac cos(B)
 # c² = a² + b² -2ab cos(C)
 # cos(A) = (b**2 + c**2 - a**2)/2*b*c
-# cos(B) = (a**2 + c**2 - b**2)/2*a*c 
+# cos(B) = (a**2 + c**2 - b**2)/2*a*c
 # cos(C) = (a**2 + b**2 - c**2)/2*a*b
 
 '''
@@ -117,6 +117,93 @@ print("Angle C in radians:", angle_radians_C, "Angle C in degrees:", angle_degre
 
 # [B] How will you perform the following operations?
 # (a) Print imaginary part out of 2+3j.
-""" x = 2+3j
-print(x.imag) """
-# Obtain conjugate of 4+2j.
+"""
+x = 2+3j
+print(x.imag)
+"""
+# (b) Obtain conjugate of 4+2j.
+'''
+x = 4+2j
+print(x.conjugate())
+'''
+# (c) Print decimal equivalent of binary '1100001110'.
+'''
+print(0b1100001110)
+'''
+# (d) Convert a float value 4.33 into a numeric string.
+'''
+x = str(4.33)
+print(x,type(x))
+'''
+# (e) Obtain integer quotient and remainder while dividing 29 with 5
+'''
+quotient = 29//5
+remainder = 29%5
+print(quotient, remainder)
+'''
+# (f) Obtain hexadecimal equivalent of decimal 34567.
+'''
+print(hex(34567))
+'''
+# (g) Round-off 45.6782 to second decimal place.
+'''
+x = 45.6782
+print(round(x,2))
+'''
+# (h) Obtain 4 from 3.556
+'''
+x = 3.556
+print(int(round(x,0)))
+'''
+# (i) Obtain 17 from 16.7844
+'''
+x = 16.7844
+print(int(round(x,0)))
+'''
+# (j) Obtain remainder on dividing 3.45 with 1.22.
+'''
+r = 3.45%1.22
+print(r)
+'''
+
+# [C] Which of the following is invalid variable name and why?
+#            VALID                    INVALID
+#         BASICSALARY                basic-hra        
+#           _basic                     #MEAN
+#            over                      group.
+#      timemindovermatter               422
+#           SINGLE                  pop in 2020 
+#            hELLO                  team'svictory
+#            queue                    Plot # 3
+#          2015_DDay
+
+
+
+# [D] Evaluate the following expressions.
+# (a) 2**6/8%2 -----> 0.0
+# (b) 9**2//5-3 ----> 13
+# (c) 10+6-2%3+7-2 ----> 19
+# (d) 5%10+10-23*4//3 ----> -15
+# (e) 5+5//5-5*5**5%5 ----> 6
+# (f) 7%7+7//7-7*7 ----> -48
+
+
+# [E] Evaluate the following expressions:
+# (a) min(2,6,8,5)
+# print(min(2,6,8,5)) ----> 2
+# (b) bin(46)
+# print(bin(46)) ---->   '0b101110'
+# (c) round(10.544336,2)
+# print(round(10.544336,2)) -----> 10.54
+# (d) math.hypot(6,8)
+# print(math.hypot(6,8))  -----> 10.0
+# (e) math.modf(3.1415)
+# print(math.modf(3.1415))  -----> (0.14150000000000018, 3.0)
+
+
+# [F] Match the following pairs:
+#     a. complex                   ------>    3. Basic Type
+#     b. Escape special character  ------>    1. \
+#     c. Tuple                     ------>    2. Container type
+#     d. Natural Logarithm         ------>    4. log()
+#     e. Common logarithmlog10()   ------>    5. log10()
