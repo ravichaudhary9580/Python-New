@@ -51,10 +51,8 @@ print(string)
 num = int(input("Enter a number:"))
 string = ''
 while num:
-    string += str(num%8)
-    num //=8
-string = string[::-1]
-string = '0o' + string
+    string = str(num % 8) + string
+    num = num//8
 print(string)
-# print(int(string,8)) 
+# print(int(string,8))
 '''

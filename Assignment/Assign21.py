@@ -39,8 +39,7 @@ for e in num:
 # Write a python script to display all prime numbers within a range.
 # range start = 15 end = 45
 '''
-num = range(15, 45, 2)
-for e in num:
+for e in range(15, 45, 2):
     i = e
     count = 0
     while i:
@@ -48,5 +47,13 @@ for e in num:
             count += 1
         i -= 1
     if count <= 2:
+        print(e,end=' ')
+    
+start,end = int(input("Enter start:")),int(input("Enter end:"))
+for e in range(start, end, 1):
+    for i in range(2,e,1):
+        if e % i == 0:
+            break
+    else:
         print(e,end=' ')
 '''
