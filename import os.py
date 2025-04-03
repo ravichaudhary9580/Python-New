@@ -2,9 +2,10 @@ import os
 
 def count_problems_in_file(file_path):
     count = 0
+    value = ('# Problem')
     with open(file_path, 'r') as file:
         for line in file:
-            if line.strip().startswith('# Problem'):
+            if line.strip().startswith(value):
                 count += 1
     return count
 
